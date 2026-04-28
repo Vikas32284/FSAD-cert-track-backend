@@ -18,9 +18,9 @@ public class CorsConfig {
         "http://localhost:5173",
         "https://fsad-cert-track-frontend.onrender.com"
     )
-    .allowedMethods("*")
+    .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")  // ✅ IMPORTANT
     .allowedHeaders("*")
-    .allowCredentials(true);
+    .allowCredentials(false);
             }
         };
     }
