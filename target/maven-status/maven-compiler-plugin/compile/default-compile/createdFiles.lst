@@ -1,0 +1,9 @@
+com\institute\skill7\config\CorsConfig$1.class
+com\institute\skill7\repository\CertificateRepository.class
+com\institute\skill7\model\Certificate.class
+com\institute\skill7\config\CorsConfig.class
+com\institute\skill7\controller\AuthController.class
+com\institute\skill7\CerttrackApplication.class
+com\institute\skill7\model\User.class
+com\institute\skill7\controller\CertificateController.class
+com\institute\skill7\repository\UserRepository.class
