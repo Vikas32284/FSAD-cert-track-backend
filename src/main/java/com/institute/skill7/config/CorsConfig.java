@@ -20,8 +20,8 @@ public class CorsConfig {
                                 "https://fsad-cert-track-frontend.onrender.com"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-                        .allowedHeaders("*")
-                        .allowCredentials(false);
+                        .allowedHeaders("*");
+                        
             }
         };
     }
